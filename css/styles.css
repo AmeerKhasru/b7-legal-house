@@ -1,0 +1,42 @@
+.primary-button{
+    background-color: #B68C5A;
+    border: 0;
+    border-radius: 8px;
+    padding: 17px 29px;
+    text-align: center;
+    color: white;
+}
+.banner-image{
+    
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 100%;
+    background-color: white;
+    
+}
+.banner-container {
+    margin-left: 100px;
+    background-image: url("../images/banner.png ");
+    height: 80vh;
+    width: 100%;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+.mini-image{
+    height: 70px;
+    width: 70px;
+}
+.slider-height{
+    height: 500px;
+}
+@media only screen and (max-width: 768px) {
+    .banner-paragraph{
+        display: none;
+    }
+    .faq-container{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+   
+}
